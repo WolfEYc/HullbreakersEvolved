@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0e1fcf1c45254f976ebd051b310ef, type: 3}
+  m_Name: Room For 2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <price>k__BackingField: 720
+  <icon>k__BackingField: {fileID: 21300000, guid: eac40541d101a184d906008206b388fb, type: 3}
+  <description>k__BackingField: Who tried to put 2 bombs in at the same time?!
+  effects:
+  - rid: 1362249402596720657
+  - rid: 1362249402596720658
+  references:
+    version: 2
+    RefIds:
+    - rid: 1362249402596720657
+      type: {class: CountBuff, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        <buff>k__BackingField:
+          baseValue: 1
+          multiplier: 0
+    - rid: 1362249402596720658
+      type: {class: SpreadBuff, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        <buff>k__BackingField:
+          baseValue: 15
+          multiplier: 1

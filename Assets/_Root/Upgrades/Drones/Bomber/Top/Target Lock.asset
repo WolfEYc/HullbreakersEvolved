@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0e1fcf1c45254f976ebd051b310ef, type: 3}
+  m_Name: Target Lock
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <price>k__BackingField: 12000
+  <icon>k__BackingField: {fileID: 21300000, guid: 76672e90e5a62df47814421921df7544, type: 3}
+  <description>k__BackingField: Rockets gain aimbot
+  effects:
+  - rid: 1362249402596720648
+  - rid: 1362249402596720647
+  references:
+    version: 2
+    RefIds:
+    - rid: 1362249402596720647
+      type: {class: AddWeapon, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        weapon: {fileID: -4124700280792655488, guid: d1aeb53df0c8a1a46ba2d7a38ffb9a3d, type: 3}
+    - rid: 1362249402596720648
+      type: {class: FirstWeaponRemoval, ns: Hullbreakers, asm: Assembly-CSharp}

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3346367133272192729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5348943513003316112}
+  - component: {fileID: 7357697976315411882}
+  - component: {fileID: 339068298360442978}
+  m_Layer: 14
+  m_Name: OrbitalWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5348943513003316112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346367133272192729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7357697976315411882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346367133272192729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60aaedc44cfca91479edd4c9ed649154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <damage>k__BackingField:
+    baseValue: 1
+    multiplier: 1
+  <speed>k__BackingField:
+    baseValue: 180
+    multiplier: 1
+  <knockback>k__BackingField:
+    baseValue: 0
+    multiplier: 1
+  <size>k__BackingField:
+    baseValue: 0.5
+    multiplier: 1
+  <spread>k__BackingField:
+    baseValue: 1
+    multiplier: 1
+  <ttl>k__BackingField:
+    baseValue: 0
+    multiplier: 1
+  <shotsPerMinute>k__BackingField:
+    baseValue: 600
+    multiplier: 1
+  <pierce>k__BackingField:
+    baseValue: 0
+    multiplier: 1
+  <count>k__BackingField:
+    baseValue: 3
+    multiplier: 1
+  <stunDuration>k__BackingField:
+    baseValue: 0
+    multiplier: 1
+  <dmgRecepIncOnTarget>k__BackingField:
+    baseValue: 0
+    multiplier: 0
+  <lifeSteal>k__BackingField:
+    baseValue: 0
+    multiplier: 1
+--- !u!114 &339068298360442978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346367133272192729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b87e193fb24784f86c5add16bacb3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: OnInflicDmg
+      Entry: 6
+      Data: 
+  muzzleFlash: {fileID: 0}
+  <centerOfMass>k__BackingField: {fileID: 0}
+  autoFire: 1

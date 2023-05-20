@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Drones
+  - Player
+  - Enemies
+  - Boss
+  - 
+  - PlayerAttacks
+  - EnemyAttacks
+  - 
+  - Collectables
+  - Suctions
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackBackground
+    uniqueID: 2940584087
+    locked: 0
+  - name: Background
+    uniqueID: 2630377599
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1274970383
+    locked: 0
+  - name: FrontForeground
+    uniqueID: 1964886779
+    locked: 0

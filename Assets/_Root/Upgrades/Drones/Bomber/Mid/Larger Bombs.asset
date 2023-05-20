@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0e1fcf1c45254f976ebd051b310ef, type: 3}
+  m_Name: Larger Bombs
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <price>k__BackingField: 90
+  <icon>k__BackingField: {fileID: -8443005756030373238, guid: e7d710b932005984da9c8ed5c1296bba, type: 3}
+  <description>k__BackingField: Bombs have a bigger blast radius
+  effects:
+  - rid: 1362249402596720649
+  references:
+    version: 2
+    RefIds:
+    - rid: 1362249402596720649
+      type: {class: BlastRadiusBuff, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        <buff>k__BackingField:
+          baseValue: 0
+          multiplier: 0.5

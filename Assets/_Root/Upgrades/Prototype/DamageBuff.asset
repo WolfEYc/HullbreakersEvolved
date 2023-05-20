@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0e1fcf1c45254f976ebd051b310ef, type: 3}
+  m_Name: DamageBuff
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <price>k__BackingField: 310
+  <icon>k__BackingField: {fileID: 21300000, guid: 7d4e0b663c918f9448262b2e9b8d2214, type: 3}
+  <description>k__BackingField: juicy damage
+  effects:
+  - rid: 1362249402596720673
+  - rid: 1362249244300804096
+  references:
+    version: 2
+    RefIds:
+    - rid: 1362249244300804096
+      type: {class: VisualsSpriteSwap, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        replacement: {fileID: 21300000, guid: a143e54cee1dcdc4a910713e55774133, type: 3}
+        color: {r: 1, g: 0.6135118, b: 0, a: 1}
+    - rid: 1362249402596720673
+      type: {class: WeaponDamageBuff, ns: Hullbreakers, asm: Assembly-CSharp}
+      data:
+        <buff>k__BackingField:
+          baseValue: 0
+          multiplier: 1

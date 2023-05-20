@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="explosionshapeclipart.svg"
+   inkscape:export-filename="..\..\..\..\..\..\Xenon-Runner\Assets\_Root\Art\Textures\explosionshapeclipart.png"
+   inkscape:export-xdpi="48.972782"
+   inkscape:export-ydpi="48.972782"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.914906"
+     inkscape:cx="275.43813"
+     inkscape:cy="327.35603"
+     inkscape:window-width="1350"
+     inkscape:window-height="1230"
+     inkscape:window-x="957"
+     inkscape:window-y="735"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-dasharray:none"
+       id="path119"
+       inkscape:flatsided="false"
+       sodipodi:sides="16"
+       sodipodi:cx="44.82473"
+       sodipodi:cy="55.235638"
+       sodipodi:r1="123.97293"
+       sodipodi:r2="61.986465"
+       sodipodi:arg1="0.8497719"
+       sodipodi:arg2="1.0461214"
+       inkscape:rounded="0"
+       inkscape:randomized="0.1"
+       d="M 135.00389,157.64173 87.887827,97.026145 81.497465,172.38916 54.837189,108.92011 43.387612,191.11084 20.158139,114.24578 -17.772377,173.01992 10.015794,114.7733 -49.496623,132.30128 1.1286243,80.987914 -81.799118,105.55097 -16.191739,75.233767 -74.678218,59.581097 -9.7227137,34.904429 -55.276744,5.2566074 2.444351,5.4145986 -31.598365,-33.430583 20.962795,5.7020235 8.2507576,-58.97914 33.599894,-4.8123908 47.696871,-69.001928 49.832297,-7.0009422 91.347311,-61.947428 93.798827,-0.38919697 141.71422,-23.622142 97.674716,16.908737 l 58.515544,4.820978 -46.93801,13.507358 63.27503,21.018251 -65.3638,15.199882 39.42842,34.887184 -46.53357,-12.165948 z"
+       inkscape:transform-center-x="3.6393134"
+       inkscape:transform-center-y="-6.549408" />
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 35df329c578251f44b0c21c97859a1b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - muzzleFlash: {instanceID: 0}
+  - <centerOfMass>k__BackingField: {instanceID: 0}
+  - projectileSprite: {fileID: 21300000, guid: f9e876f47044acb48a6852222a67a143, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
